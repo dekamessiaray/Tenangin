@@ -1,0 +1,11 @@
+{
+  "_comment": "Metrik evaluasi model Tuned Stacking (XGBoost + CatBoost + LightGBM, meta-learner Logistic Regression), diambil dari output notebook Tenangin_Final.ipynb pada data uji (20% split, stratified, 252 sampel dari total 1259 entri dataset). Nilai-nilai ini TIDAK dihitung ulang oleh aplikasi web - murni dibaca sebagai referensi dari notebook training.",
+  "accuracy": 0.8333,
+  "precision": 0.7867,
+  "recall": 0.9219,
+  "f1_score": 0.8489,
+  "roc_auc": 0.8953,
+  "n_samples": 1259,
+  "n_features": 23,
+  "n_test_samples": 252
+}
